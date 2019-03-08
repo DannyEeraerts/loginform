@@ -1,0 +1,38 @@
+$title-font-size: 48px;
+$title-color: blue;
+
+$red: #dd0000;
+
+.alert-box {
+  color: $red;
+  padding: 1px;
+  border: 1px solid $red;
+}
+
+ul {
+  list-style: none;
+  background-color: red;
+  color: white;
+
+  li {
+    padding: 10px;
+
+    li{padding: 20px;
+      color: green;}
+  }
+}
+
+ul {
+  padding: 20px;
+  &.slim {
+    padding: 10px; }}
+
+ul {
+
+  padding: 20px;
+}
+
+h1{
+  font-size: $title-font-size;
+  color:$title-color;
+}

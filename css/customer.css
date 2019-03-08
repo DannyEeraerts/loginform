@@ -1,0 +1,28 @@
+.alert-box {
+  color: #dd0000;
+  padding: 1px;
+  border: 1px solid #dd0000; }
+
+ul {
+  list-style: none;
+  background-color: red;
+  color: white; }
+  ul li {
+    padding: 10px; }
+    ul li li {
+      padding: 20px;
+      color: green; }
+
+ul {
+  padding: 20px; }
+  ul.slim {
+    padding: 10px; }
+
+ul {
+  padding: 20px; }
+
+h1 {
+  font-size: 48px;
+  color: blue; }
+
+/*# sourceMappingURL=customer.css.map */
